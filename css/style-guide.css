@@ -1,0 +1,88 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #dee5e8;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+/* ===================================== */
+
+/* __________________________Navbar__________________________*/
+
+/* ===================================== */
+
+body { padding-top: 50px; } /* for top fixed nav bar  */
+
+.containerX {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar > .containerX .navbar-brand {
+    margin-left: -15px;
+}
+
+.navbar-fixed-top .navbar-brand {
+padding: 0 15px;
+}
+
+.navbar-form {
+    border-bottom: none;
+}
+
+.navbar-text {
+    float: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.navbar-fixed-top {
+    box-shadow: 0 0 7px 3px rgba(50, 50, 50, 0.1);
+}
+
+
+/* _________________ Search Box ________________*/
+.nav-search-box {
+    position: relative;
+}
+.nav-search-box .form-control {
+    border-radius: 50px;
+}
+.nav-search-btn {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+
+    padding: 3px 6px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    background: transparent;
+    color: #777;
+}
+
+.nav-search-btn:focus, .nav-search-btn:active:focus, .nav-search-btn.active:focus {
+    outline: 0 none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-search-btn {
+        top: 5px;
+    }
+}
