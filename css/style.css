@@ -705,7 +705,7 @@ main .form-control:focus, .contact .form-control:focus {
     #upper-fold .container {
         top:60%;
     }
-    #upper-fold h1, #upper-fold h1 span {
+    #upper-fold h1, #upper-fold h1 span, h1.lovely-birds {
         font-size: 36px;
     }
     #upper-fold h2 {
