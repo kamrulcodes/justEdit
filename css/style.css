@@ -700,6 +700,8 @@ main .form-control:focus, .contact .form-control:focus {
     .nav-search-btn {
 	top: 5px;
     }
+}
+@media screen and (max-width: 768px) {
     #upper-fold .container {
         top:60%;
     }
