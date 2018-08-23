@@ -265,7 +265,7 @@ background-color: #dee5e8;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);  /*centering*/
-
+	margin:0;
 	/* text-align: center; */
 }
 
@@ -704,7 +704,7 @@ main .form-control:focus, .contact .form-control:focus {
         top:60%;
     }
     #upper-fold h1, #upper-fold h1 span {
-        font-size: 40px;
+        font-size: 36px;
     }
     #upper-fold h2 {
         font-size: 28px;
