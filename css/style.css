@@ -697,10 +697,18 @@ main .form-control:focus, .contact .form-control:focus {
 /* ----------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 768px) {
-
-	.nav-search-btn {
-		top: 5px;
-	}
+    .nav-search-btn {
+	top: 5px;
+    }
+    #upper-fold .container {
+        top:60%;
+    }
+    #upper-fold h1, #upper-fold h1 span {
+        font-size: 40px;
+    }
+    #upper-fold h2 {
+        font-size: 28px;
+    }
 }
 
 
